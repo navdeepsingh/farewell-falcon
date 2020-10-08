@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Farewell Falcon</title>
+  <style>
+    *, *::after, *::before {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(45deg,red,#ff7300,#fffb00,#48ff00,#00ffd5,#002bff,#7a00ff,#ff00c8,red);        
+      transition: opacity .3s ease-in-out;
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    h2{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    h2 a{
+      margin: 0 0.8em;
+    }    
+    .container {
+      column-count: 3;
+      column-gap: 0;
+    }
+    .container > div{
+      position: relative;
+      break-inside: avoid;
+      padding: 5px;
+    }
+    .container > div img{
+      width: 100%;
+    }
+    .container > div h1, .container > div p{
+      position: absolute;
+    }
+    .container > div h1{      
+      margin: 0;
+      padding: 5px;
+      top: 5px;
+      font-size: 2rem;
+      background-color: rgba(0, 0, 0, 0.2);
+      color: white;
+    }
+    .container > div p{
+      bottom: 0;
+      right: 5px;
+      padding: 5px;
+      font-size: 1.0rem;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+    }
+    .loading{
+      width: 100vw;
+      height: 100vh;
+      top: 0;
+      background: black;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      z-index: 1;
+    }
+    .loading .container, .loading header{
+      opacity: 0;
+    }
+    #loader {
+      margin: 0 auto;  
+    }
+  </style>
+</head>
+<body> 
+  <div class="loading">
+    <img src="images/loading.gif" id="loader" /> 
+  </div>  
+  <header>
+    <h1>9 Years Journey (2011-2020)</h1>
+    <h2><a href="https://www.linkedin.com/in/navdeep-singh-dev/" target="_blank"><img src="images/ineo.png" alt="INEO"/></a> &#8594; <a href="https://www.linkedin.com/in/navdeep-singh-dev/"><img src="images/publicis.png" alt="Publicis" /></a> &#8594; <a href="https://www.linkedin.com/in/navdeep-singh-dev/" target="_blank"><img src="images/falcon.png" alt="Falcon" /></a></h2>
+  </header>  
+  <div class="container">
+    <div>
+      <picture>
+        <source media="(max-width: 659px)" srcset="1.jpg">
+        <img src="images/1.jpg" alt="">
+      </picture>
+      <h1>2011</h1>
+      <p>This day meeting first time with Kelvin & Royston.</p>
+    </div>   
+    <div>
+      <picture>
+        <source media="(max-width: 659px)" srcset="2-1.jpg">
+        <img src="images/2-1.jpg" alt="">
+      </picture>
+      <h1>2012</h1>
+      <p>INEO Days</p>
+    </div>
+    <div>
+      <picture>
+        <source media="(max-width: 659px)" srcset="3.jpg">
+        <img src="images/3.jpg" alt="">
+      </picture>
+      <h1>2012</h1>
+      <p>INEO Days</p>
+    </div>
+    <div>
+      <picture>
+        <source media="(max-width: 659px)" srcset="4.jpg">
+        <img src="images/4.jpg" alt="">
+      </picture>
+      <h1>2012</h1>
+      <p>INEO Days</p>
+    </div>
+     <div>
+      <picture>
+        <source media="(max-width: 659px)" srcset="2.jpg">
+        <img src="images/2.jpg" alt="">
+      </picture>
+      <h1>2012</h1>
+      <p>INEO Days</p>
+    </div>
+    <div>
+      <picture>
+        <source media="(max-width: 659px)" srcset="5.jpg">
+        <img src="images/5.jpg" alt="">
+      </picture>
+      <h1>2012</h1>
+      <p>INEO Days</p>
+    </div>
+    <div>
+      <picture>
+        <source media="(max-width: 659px)" srcset="6.jpg">
+        <img src="images/6.jpg" alt="">
+      </picture>
+      <h1>2012</h1>
+      <p>INEO Days</p>
+    </div>
+    <div>
+      <picture>
+        <source media="(max-width: 659px)" srcset="7.jpg">
+        <img src="images/7.jpg" alt="">
+      </picture>
+      <h1>2012</h1>      
+    </div>
+    <div>
+      <picture>
+        <source media="(max-width: 659px)" srcset="8.jpg">
+        <img src="images/8.jpg" alt="">
+      </picture>
+      <h1>2016</h1>
+      <p>Publicis Days</p>
+    </div>
+    <div>
+      <picture>
+        <source media="(max-width: 659px)" srcset="9.jpg">
+        <img src="images/9.jpg" alt="">
+      </picture>
+      <h1>2018</h1>
+      <p>Falcon Days</p>
+    </div>
+    <div>
+      <picture>
+        <source media="(max-width: 659px)" srcset="10.jpg">
+        <img src="images/10.jpg" alt="">
+      </picture>
+      <h1>2018</h1>
+      <p>Falcon Days</p>
+    </div>
+    <div>
+      <picture>
+        <source media="(max-width: 659px)" srcset="11.jpg">
+        <img src="images/11.jpg" alt="">
+      </picture>
+      <h1>2018</h1>
+      <p>Falcon Days</p>
+    </div>
+    <div>
+      <picture>
+        <source media="(max-width: 659px)" srcset="12.jpg">
+        <img src="images/12.jpg" alt="">
+      </picture>
+      <h1>2019</h1>
+      <p>Falcon Days</p>
+    </div> 
+  </div>
+  <script>
+    window.addEventListener("load", () => {
+        // Fully loaded!
+        document.querySelector('.loading').remove();
+    });
+  </script>   
+</body>
+</html>
