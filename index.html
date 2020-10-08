@@ -68,13 +68,20 @@
       align-items: center;
       position: absolute;
       z-index: 1;
+    }    
+    @media screen and (max-width: 600px){
+      header {
+        padding: 20px;;
+      }
+      .container {
+        column-count: 1;
+        column-gap: 0;
+      }
+      img {
+        width: 100%;
+      }
     }
-    .loading .container, .loading header{
-      opacity: 0;
-    }
-    #loader {
-      margin: 0 auto;  
-    }
+
   </style>
 </head>
 <body> 
@@ -87,56 +94,49 @@
   </header>  
   <div class="container">
     <div>
-      <picture>
-        <source media="(max-width: 659px)" srcset="1.jpg">
+      <picture>        
         <img src="images/1.jpg" alt="">
       </picture>
       <h1>2011</h1>
       <p>This day meeting first time with Kelvin & Royston.</p>
     </div>   
     <div>
-      <picture>
-        <source media="(max-width: 659px)" srcset="2-1.jpg">
+      <picture>        
         <img src="images/2-1.jpg" alt="">
       </picture>
       <h1>2012</h1>
       <p>INEO Days</p>
     </div>
     <div>
-      <picture>
-        <source media="(max-width: 659px)" srcset="3.jpg">
+      <picture>        
         <img src="images/3.jpg" alt="">
       </picture>
       <h1>2012</h1>
       <p>INEO Days</p>
     </div>
     <div>
-      <picture>
-        <source media="(max-width: 659px)" srcset="4.jpg">
+      <picture>        
         <img src="images/4.jpg" alt="">
       </picture>
       <h1>2012</h1>
       <p>INEO Days</p>
     </div>
      <div>
-      <picture>
-        <source media="(max-width: 659px)" srcset="2.jpg">
+      <picture>        
         <img src="images/2.jpg" alt="">
       </picture>
       <h1>2012</h1>
       <p>INEO Days</p>
     </div>
     <div>
-      <picture>
-        <source media="(max-width: 659px)" srcset="5.jpg">
+      <picture>        
         <img src="images/5.jpg" alt="">
       </picture>
       <h1>2012</h1>
       <p>INEO Days</p>
     </div>
     <div>
-      <picture>
-        <source media="(max-width: 659px)" srcset="6.jpg">
+      <picture>        
         <img src="images/6.jpg" alt="">
       </picture>
       <h1>2012</h1>
@@ -144,46 +144,40 @@
     </div>
     <div>
       <picture>
-        <source media="(max-width: 659px)" srcset="7.jpg">
         <img src="images/7.jpg" alt="">
       </picture>
       <h1>2012</h1>      
     </div>
     <div>
-      <picture>
-        <source media="(max-width: 659px)" srcset="8.jpg">
+      <picture>        
         <img src="images/8.jpg" alt="">
       </picture>
       <h1>2016</h1>
       <p>Publicis Days</p>
     </div>
     <div>
-      <picture>
-        <source media="(max-width: 659px)" srcset="9.jpg">
+      <picture>        
         <img src="images/9.jpg" alt="">
       </picture>
       <h1>2018</h1>
       <p>Falcon Days</p>
     </div>
     <div>
-      <picture>
-        <source media="(max-width: 659px)" srcset="10.jpg">
+      <picture>        
         <img src="images/10.jpg" alt="">
       </picture>
       <h1>2018</h1>
       <p>Falcon Days</p>
     </div>
     <div>
-      <picture>
-        <source media="(max-width: 659px)" srcset="11.jpg">
+      <picture>        
         <img src="images/11.jpg" alt="">
       </picture>
       <h1>2018</h1>
       <p>Falcon Days</p>
     </div>
     <div>
-      <picture>
-        <source media="(max-width: 659px)" srcset="12.jpg">
+      <picture>        
         <img src="images/12.jpg" alt="">
       </picture>
       <h1>2019</h1>
