@@ -185,10 +185,17 @@
     </div> 
   </div>
   <script>
-    window.addEventListener("load", () => {
-        // Fully loaded!
-        document.querySelector('.loading').remove();
-    });
+    if(document.readyState === "complete") {
+      // Fully loaded!
+      document.querySelector('.loading').remove();
+    }
+    else {
+      window.addEventListener("load", () => {
+          // Fully loaded!
+          document.querySelector('.loading').remove();
+      });
+    }
+    
   </script>   
 </body>
 </html>
